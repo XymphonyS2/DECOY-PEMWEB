@@ -523,6 +523,10 @@ body {
     background-image: url('../../../theme/images/background.jpg');
     /* background-color: #f2f5f4; */
   }
+
+  .section-bg2 {
+    background-color: #ffffff;
+  }
   
   .section-title {
     text-align: center;
