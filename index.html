@@ -30,7 +30,7 @@
     <!-- Vendor CSS Files -->
     <link href="assets/aset/vendor/animate.css/animate.min.css" rel="stylesheet">
     <link href="assets/aset/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/aset/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="assets/aset/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="assets/aset/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/aset/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
@@ -97,17 +97,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- java script -->
-
-                    <script>
-                        const btn = document.querySelector('.tombol');
-                        const videoContainer - document.querySelector('.video-container');
-                        const close = document.querySelector('close');
-
-                        btn.addEventListener('click', () => {
-                                    videoContainer.classList.add('show');
-                                }
-                    </script>
 
                     <!-- Slide 2 -->
                     <div class="carousel-item" style="background-image: url(theme/images/guru.jpg);">
@@ -151,7 +140,7 @@
 
     <header id="header" class="d-flex align-items-center">
         <audio id="mysong" src="assets/aset/music/lagu-ak.mp3"></audio>
-        <img src="theme/images/play.png" id="playbtn" onclick="playSong()" style="width: 40px; height: 40px; margin-left: 70px; margin-right: 15px; cursor: pointer;">
+        <img src="theme/images/play.png" id="playbtn" onclick="" style="width: 40px; height: 40px; margin-left: 70px; margin-right: 15px; cursor: pointer;">
         <img src="theme/images/pause.png" id="pausebtn" onclick="pauseSong()" style=" width: 40px; height: 40px; margin-left: 70px; margin-right: 15px; display: none; cursor: pointer;">
 
         <script>
@@ -248,6 +237,7 @@
         </section>
 
         <section class="more-services section-bg">
+
             <div class="container-fluid">
 
                 <div class="section-title">
@@ -255,8 +245,116 @@
                     <p>Berita terkini tentang SMA S Al Kautsar</p>
                 </div>
 
-                <div class="row">
-                                            <div class="col-lg-2 col-md-4 col-sm-6"> <!-- col-xs-12 !-->
+                <div class="container mt-4">
+                    <!-- Main News Row -->
+                    <div class="row mb-4">
+                        <!-- First main news item -->
+                        <div class="col-md-4">
+                            <div class="news-card">
+                                <img src="https://placehold.co/400x250" class="card-img-top" alt="Graduate news">
+                                <div class="card-body">
+                                    <h3 class="news-title">
+                                        <a href="#">Aktif Berorganisasi Selama Kuliah, Lintang Berhasil Lulus Sarjana Tercepat</a>
+                                    </h3>
+                                    <p class="news-date">7 Maret 2025, 13:29</p>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <!-- Second main news item -->
+                        <div class="col-md-4">
+                            <div class="news-card">
+                                <img src="https://placehold.co/400x250" class="card-img-top" alt="UGM Competition winners">
+                                <div class="card-body">
+                                    <h3 class="news-title">
+                                        <a href="#">Mahasiswa UGM Juara 1 Kompetisi Inovasi Perlindungan Pantai</a>
+                                    </h3>
+                                    <p class="news-date">3 Maret 2025, 13:12</p>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <!-- Third main news item -->
+                        <div class="col-md-4">
+                            <div class="news-card">
+                                <img src="https://placehold.co/400x250" class="card-img-top" alt="UGM Research team">
+                                <div class="card-body">
+                                    <h3 class="news-title">
+                                        <a href="#">Peneliti UGM Kembangkan Alat Ukur Terpadu Pemeriksaan Kesehatan Anak</a>
+                                    </h3>
+                                    <p class="news-date">12 Maret 2025, 15:17</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Secondary News Row -->
+                    <div class="row">
+                        <!-- Left column for secondary news -->
+                        <div class="col-md-6">
+                            <!-- First small news item -->
+                            <div class="news-card">
+                                <div class="small-news-item">
+                                    <img src="https://placehold.co/120x80" class="small-news-img" alt="FTP UGM news">
+                                    <div class="small-news-content">
+                                        <h4 class="news-title mb-1">
+                                            <a href="#">FTP UGM Tuntaskan Visitasi Akreditasi Internasional</a>
+                                        </h4>
+                                        <p class="small-news-date mb-0">6 Maret 2025, 14:45</p>
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <!-- Second small news item -->
+                            <div class="news-card">
+                                <div class="small-news-item">
+                                    <img src="https://placehold.co/120x80" class="small-news-img" alt="FTP UGM accreditation">
+                                    <div class="small-news-content">
+                                        <h4 class="news-title mb-1">
+                                            <a href="#">Tiga Prodi FTP UGM Mengikuti Proses Akreditasi</a>
+                                        </h4>
+                                        <p class="small-news-date mb-0">5 Maret 2025, 13:02</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <!-- Right column for secondary news -->
+                        <div class="col-md-6">
+                            <!-- Third small news item -->
+                            <div class="news-card">
+                                <div class="small-news-item">
+                                    <img src="https://placehold.co/120x80" class="small-news-img" alt="UGM Awards">
+                                    <div class="small-news-content">
+                                        <h4 class="news-title mb-1">
+                                            <a href="#">UGM Raih 3 Penghargaan di PR Indonesia Awards 2025</a>
+                                        </h4>
+                                        <p class="small-news-date mb-0">27 Februari 2025, 13:08</p>
+                                    </div>
+                                </div>
+                            </div>
+            
+                            <!-- Fourth small news item -->
+                            <div class="news-card">
+                                <div class="small-news-item">
+                                    <img src="https://placehold.co/120x80" class="small-news-img" alt="Tim Semar UGM">
+                                    <div class="small-news-content">
+                                        <h4 class="news-title mb-1">
+                                            <a href="#">Tim Semar UGM Raih Penghargaan di Ajang Internasional</a>
+                                        </h4>
+                                        <p class="small-news-date mb-0">20 Februari 2025, 16:30</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Bootstrap Bundle with Popper -->
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+                <!-- <div class="row">
+                                            <div class="col-lg-2 col-md-4 col-sm-6">
                             <div class="card">
                                 <img src="assets/images/4fbfee4f21d8efe75149d060811cb6ec.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
@@ -267,18 +365,18 @@
                                 </div>
                             </div>
                         </div>
-                                            <div class="col-lg-2 col-md-4 col-sm-6"> <!-- col-xs-12 !-->
+                                            <div class="col-lg-2 col-md-4 col-sm-6">
                             <div class="card">
                                 <img src="assets/images/11c48d3c20853e4afbcc04d9e7fe7e39.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title" style="text-align: center"><a href="https://smas-alkautsar.sch.id/artikel/jadwal-tes-smp-&-sma">Jadwal TES SMP & SMA</a></h5>
                                     <p class="card-text" style="text-align: center">
-                                        Silakan kunjungi pada laman&nbsp;<a href="http://a ...</p>
-                                    <a href="blog" class="btn">Explore more</a>
+                                        Silakan kunjungi pada laman&nbsp;</p>
+                                    <a href="blog"class="btn">Explore more</a>
                                 </div>
                             </div>
                         </div>
-                                            <div class="col-lg-2 col-md-4 col-sm-6"> <!-- col-xs-12 !-->
+                                            <div class="col-lg-2 col-md-4 col-sm-6">
                             <div class="card">
                                 <img src="assets/images/3948d43f998371aee42f0dd84f741b06.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
@@ -289,7 +387,7 @@
                                 </div>
                             </div>
                         </div>
-                                            <div class="col-lg-2 col-md-4 col-sm-6"> <!-- col-xs-12 !-->
+                                            <div class="col-lg-2 col-md-4 col-sm-6">
                             <div class="card">
                                 <img src="assets/images/977406193af7d447ca44f9363b191fc3.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
@@ -300,7 +398,7 @@
                                 </div>
                             </div>
                         </div>
-                                            <div class="col-lg-2 col-md-4 col-sm-6"> <!-- col-xs-12 !-->
+                                            <div class="col-lg-2 col-md-4 col-sm-6">
                             <div class="card">
                                 <img src="assets/images/2c548fa6b9501df74432aeacbd8ce333.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
@@ -311,7 +409,7 @@
                                 </div>
                             </div>
                         </div>
-                                            <div class="col-lg-2 col-md-4 col-sm-6"> <!-- col-xs-12 !-->
+                                            <div class="col-lg-2 col-md-4 col-sm-6">
                             <div class="card">
                                 <img src="assets/images/2283f0a09e049474b7a3d75b829901ea.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
@@ -323,7 +421,7 @@
                             </div>
                         </div>
                                     </div>
-            </div>
+            </div> -->
         </section>
 
 
@@ -397,7 +495,7 @@
                         
                             <div class="col-lg-4 col-md-4 portfolio-item filter-app">
                                 <div class="portfolio-wrap">
-                                    <img src="assets/images/27c53d7b7aace7772f6e599127a68251.JPG" value="4" class="img-fluid" alt="">
+                                    <img src="https://placehold.co/400x250" value="4" class="img-fluid" alt="">
                                     <div class="portfolio-info">
                                         <h4>Ruang Kelas Siswa</h4>
                                     </div>
@@ -418,7 +516,7 @@
                         
                             <div class="col-lg-4 col-md-4 portfolio-item filter-app">
                                 <div class="portfolio-wrap">
-                                    <img src="assets/images/f9eacc7c524ffd45229ea089c335cbf7.JPG" value="4" class="img-fluid" alt="">
+                                    <img src="https://placehold.co/400x250" value="4" class="img-fluid" alt="">
                                     <div class="portfolio-info">
                                         <h4>Lapangan Basket</h4>
                                     </div>
@@ -439,7 +537,7 @@
                         
                             <div class="col-lg-4 col-md-4 portfolio-item filter-app">
                                 <div class="portfolio-wrap">
-                                    <img src="assets/images/cdd7a73cc02f97bb655c46f363780af0.JPG" value="4" class="img-fluid" alt="">
+                                    <img src="https://placehold.co/400x250" value="4" class="img-fluid" alt="">
                                     <div class="portfolio-info">
                                         <h4>Koperasi Sekolah</h4>
                                     </div>
@@ -457,116 +555,43 @@
                                     </div>
                                 </div>
                             </div>
-                        
-                            <div class="col-lg-4 col-md-4 portfolio-item filter-app">
-                                <div class="portfolio-wrap">
-                                    <img src="assets/images/76a22d51ad1ff1d177473e0da618b43e.JPG" value="4" class="img-fluid" alt="">
-                                    <div class="portfolio-info">
-                                        <h4>Klinik Sekolah</h4>
-                                    </div>
-                                    <div class="portfolio-links">
-                                        <a href="assets/images/76a22d51ad1ff1d177473e0da618b43e.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Klinik Sekolah"><i class="bx bx-info-circle"></i></a>
-
-                                        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/aset/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Penghargaan Guru Terbaik</h4>
-              </div>
-              <div class="portfolio-links">
-                <a href="assets/aset/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Penghargaan Guru Terbaik"><i class="bx bx-info-circle"></i></a> -->
-                                    </div>
-                                </div>
-                            </div>
-                        
-                            <div class="col-lg-4 col-md-4 portfolio-item filter-app">
-                                <div class="portfolio-wrap">
-                                    <img src="assets/images/bf56da86d8786c66ed3506d3d87f888a.JPG" value="4" class="img-fluid" alt="">
-                                    <div class="portfolio-info">
-                                        <h4>Klinik Sekolah</h4>
-                                    </div>
-                                    <div class="portfolio-links">
-                                        <a href="assets/images/bf56da86d8786c66ed3506d3d87f888a.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Klinik Sekolah"><i class="bx bx-info-circle"></i></a>
-
-                                        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/aset/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Penghargaan Guru Terbaik</h4>
-              </div>
-              <div class="portfolio-links">
-                <a href="assets/aset/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Penghargaan Guru Terbaik"><i class="bx bx-info-circle"></i></a> -->
-                                    </div>
-                                </div>
-                            </div>
-                        
-                            <div class="col-lg-4 col-md-4 portfolio-item filter-app">
-                                <div class="portfolio-wrap">
-                                    <img src="assets/images/57c27f09024a5a187237e5ce19ea6606.JPG" value="4" class="img-fluid" alt="">
-                                    <div class="portfolio-info">
-                                        <h4>Gedung B</h4>
-                                    </div>
-                                    <div class="portfolio-links">
-                                        <a href="assets/images/57c27f09024a5a187237e5ce19ea6606.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Gedung B"><i class="bx bx-info-circle"></i></a>
-
-                                        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/aset/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Penghargaan Guru Terbaik</h4>
-              </div>
-              <div class="portfolio-links">
-                <a href="assets/aset/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Penghargaan Guru Terbaik"><i class="bx bx-info-circle"></i></a> -->
-                                    </div>
-                                </div>
-                            </div>
                                            
                     </div>
                 </div>
-        </section>
 
-        <section class="counts section-bg">
-            <div class="container">
+                <div class="counts container">
 
-                <div class="row no-gutters">
-
-                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
-                        <div class="count-box">
-                            <i class="bi bi-person"></i>
-                            <span class="counter">66</span>
-                            <p><strong>Guru</strong></p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
-                        <div class="count-box">
-                            <i class="bi bi-people"></i>
-                            <div class="chart-text">
-                                                    <span class="counter">522</span>
-                        <p><strong>Pengunjung</strong></p>
+                    <div class="row no-gutters">
+    
+                        <div class="col-lg-4 col-md-6 d-md-flex align-items-md-stretch">
+                            <div class="count-box">
+                                <i class="bi bi-person"></i>
+                                <span class="counter">66</span>
+                                <p><strong>Guru</strong></p>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
-                        <div class="count-box">
-                            <i class="bi bi-download"></i>
-                            <span class="counter">8</span>
-                            <p><strong>Download</strong></p>
+    
+                        <div class="col-lg-4 col-md-6 d-md-flex align-items-md-stretch">
+                            <div class="count-box">
+                                <i class="bi bi-people"></i>
+                                <div class="chart-text">
+                                                        <span class="counter">522</span>
+                            <p><strong>Pengunjung</strong></p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
-                        <div class="count-box">
-                            <i class="bi bi-journal-richtext"></i>
-                            <span class="counter">2</span>
-                            <p><strong>Agenda</strong></p>
+    
+                        <div class="col-lg-4 col-md-6 d-md-flex align-items-md-stretch">
+                            <div class="count-box">
+                                <i class="bi bi-download"></i>
+                                <span class="counter">8</span>
+                                <p><strong>Download</strong></p>
+                            </div>
                         </div>
+    
                     </div>
-
+    
                 </div>
-
-            </div>
         </section>
 
 
@@ -702,14 +727,14 @@
 
   <div class="container">
     <div class="copyright">
-      &copy; Copyright <strong><span>Shuffle</span></strong>. All Rights Reserved
+      &copy; Copyright <strong><span>Hapes</span></strong>. All Rights Reserved
     </div>
     <div class="credits">
       <!-- All the links in the footer should remain intact. -->
       <!-- You can delete the links only if you purchased the pro version. -->
       <!-- Licensing information: https://bootstrapmade.com/license/ -->
       <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bootstrap-3-one-page-template-free-shuffle/ -->
-      Designed by <a target="blank" href="https://bootstrapmade.com/">BootstrapMade</a>
+      <!-- Designed by <a target="blank" href="https://bootstrapmade.com/">BootstrapMade</a> -->
     </div>
   </div>
 </footer><!-- End Footer -->
