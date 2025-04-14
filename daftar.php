@@ -94,30 +94,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
             <form method="POST">
                 <div class="mb-3">
-                    <label class="form-label">Nama Lengkap</label>
-                    <input type="text" class="form-control" name="nama_lengkap" placeholder="Masukkan Nama Lengkap" required>
-                </div>
-
-                <div class="mb-3">
-                    <label class="form-label">Jenis Kelamin</label>
-                    <select name="kelamin" class="form-select" required>
-                        <option value="" hidden>Pilih Jenis Kelamin</option>
-                        <option value="1">Laki - Laki</option>
-                        <option value="0">Perempuan</option>
-                    </select>
-                </div>
-
-                <div class="mb-3">
-                    <label class="form-label">Tanggal Lahir</label>
-                    <input type="date" class="form-control" name="tanggal_lahir" placeholder="Masukkan Tanggal Lahir" required>
-                </div>
-
-                <div class="mb-3">
-                    <label class="form-label">Nomer Telepon</label>
-                    <input type="text" class="form-control" name="nomor_telepon" placeholder="Masukkan Nomer Telepon" required>
-                </div>
-
-                <div class="mb-3">
                     <label class="form-label">Email</label>
                     <input type="email" class="form-control" name="email" placeholder="Masukkan Email" required>
                 </div>
