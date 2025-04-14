@@ -1,10 +1,4 @@
 <?php
-require "./actions/koneksi.php";
-require "./actions/c-login.php";
-
-if (!empty($_SESSION['harborship'])) {
-    header('location: index.php');
-}
 ?>
 
 <!DOCTYPE html>
@@ -79,7 +73,7 @@ if (!empty($_SESSION['harborship'])) {
         <div class="login-container">
             <h2 class="text-center mb-4">Masuk</h2>
             <p class="signup-text text-center mb-4">
-                Belum punya akun? <a href="./register.php" class="signup-link">Daftar sekarang</a>
+                Belum punya akun? <a href="./daftar.php" class="signup-link">Daftar sekarang</a>
             </p>
 
             <form method="POST">

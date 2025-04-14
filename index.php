@@ -147,19 +147,19 @@
                 <ul>
                     <li><a class="nav-link scrollto " href="#heroCarousel">Beranda</a></li>
                     <li><a class="nav-link scrollto" href="#artikel">Artikel</a></li>
-                    <li><a class="nav-link scrollto" href="galeri.html">Galeri</a></li>
+                    <li><a class="nav-link scrollto" href="galeri.php">Galeri</a></li>
                     <li class="dropdown"><a href="#"><span>Akademik</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                            <li><a href="prestasi.html">Prestasi</a></li>
-                            <li><a href="guru.html">Guru</a></li>
+                            <li><a href="prestasi.php">Prestasi</a></li>
+                            <li><a href="guru.php">Guru</a></li>
                             <li><a href="lambang">Siswa</a></li>
                         </ul>
                     </li>
                     <li class="dropdown"><a href="#"><span>Tentang</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                            <li><a href="sejarah.html">Sejarah</a></li>
-                            <li><a href="visimisi.html">Visi dan Misi</a></li>
-                            <li><a href="tujuan.html">Tujuan</a></li>
+                            <li><a href="sejarah.php">Sejarah</a></li>
+                            <li><a href="visimisi.php">Visi dan Misi</a></li>
+                            <li><a href="tujuan.php">Tujuan</a></li>
                         </ul>
                     </li>
 
@@ -346,7 +346,7 @@
                             <div class="col-md-12">
                                 <!-- First small news item -->
                                 <div class="news-card">
-                                    <a class="small-news-item" href="artikel.html"> 
+                                    <a class="small-news-item" href="artikel.php"> 
                                         <div class="small-news-content">
                                             <h4 class="news-title mb-1">
                                                 <span>Pelajari Lainnya...</span>
@@ -451,22 +451,7 @@
                                     <h4>Gedung Sekolah</h4>
                                 </div>
                                 <div class="portfolio-links">
-<<<<<<< HEAD
-                                    <a href="https://placehold.co/400x250"
-                                        data-gallery="portfolioGallery" class="portfolio-lightbox"
-                                        title="Ruang Kelas Siswa"><i class="bx bx-info-circle"></i></a>
-
-                                    <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/aset/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Penghargaan Guru Terbaik</h4>
-              </div>
-              <div class="portfolio-links">
-                <a href="assets/aset/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Penghargaan Guru Terbaik"><i class="bx bx-info-circle"></i></a> -->
-=======
                                     <a href="assets/images/27c53d7b7aace7772f6e599127a68251.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Ruang Kelas Siswa"><i class="bx bx-info-circle"></i></a>
->>>>>>> 606ad8d378e8a56b3f2e241689268e8bf871f6a8
                                 </div>
                             </div>
                         </div>
@@ -637,7 +622,7 @@
                 <div class="col-lg-2 col-md-6 footer-links">
                     <h4>Akademik</h4>
                     <ul>
-                        <li><i class="bi bi-chevron-right"></i> <a href="prestasi.html">Prestasi</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="prestasi.php">Prestasi</a></li>
                         <li><i class="bi bi-chevron-right"></i> <a href="pengumuman">Guru</a></li>
                         <li><i class="bi bi-chevron-right"></i> <a href="agenda">Siswa</a></li>
                     </ul>
