@@ -96,18 +96,8 @@
                 </div>
 
                 <div class="mb-3">
-                    <label class="form-label">Nomer Induk Kependudukan</label>
-                    <input type="text" class="form-control" name="nik" placeholder="Masukkan NIK" required>
-                </div>
-
-                <div class="mb-3">
                     <label class="form-label">Nomer Telepon</label>
                     <input type="text" class="form-control" name="nomor_telepon" placeholder="Masukkan Nomer Telepon" required>
-                </div>
-
-                <div class="mb-3">
-                    <label class="form-label">Kota Asal</label>
-                    <input type="text" class="form-control" name="kota_asal" placeholder="Masukkan Alamat Kota Asal" required>
                 </div>
 
                 <div class="mb-3">
