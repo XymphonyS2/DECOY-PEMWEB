@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $query = query("INSERT INTO akun SET email='$email',password='$password'");
         if ($query !== false) {
             echo "<script>alert('Pembuatan akun berhasil!');</script>";
-            header('location: login.php');
+            header('location: masuk.php');
         }
     }
 }
