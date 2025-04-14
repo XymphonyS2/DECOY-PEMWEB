@@ -1,4 +1,22 @@
 <?php
+require "koneksi.php";
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $email = $_POST['email'];
+    $password = $_POST['password'];
+    $konfirmasi_password = $_POST['konfirmasi_password'];
+
+    if ($password != $konfirmasi_password) {
+        echo "<script>alert('Password dan Konfirmasi password tidak cocok!')</script>";
+    } else {
+        $query = query("SELECT * FROM akun WHERE email='$email' AND password='$password'");
+        if ($query !== false) {
+            $_SESSION['pemwebsma'] = fetch($query);
+            echo "<script>alert('Login Berhasil!');</script>";
+            header('location: index.php');
+        }
+    }
+}
 ?>
 
 <!DOCTYPE html>

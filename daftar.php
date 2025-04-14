@@ -1,4 +1,21 @@
 <?php
+require "koneksi.php";
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $email = $_POST['email'];
+    $password = $_POST['password'];
+    $konfirmasi_password = $_POST['konfirmasi_password'];
+
+    if ($password != $konfirmasi_password) {
+        echo "<script>alert('Password dan Konfirmasi password tidak cocok!')</script>";
+    } else {
+        $query = query("INSERT INTO akun SET email='$email',password='$password'");
+        if ($query !== false) {
+            echo "<script>alert('Pembuatan akun berhasil!');</script>";
+            header('location: login.php');
+        }
+    }
+}
 ?>
 
 <!DOCTYPE html>
@@ -127,7 +144,7 @@
 
 
         <!-- Bootstrap Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></>
         <!-- Font Awesome -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
 </body>
