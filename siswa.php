@@ -1,3 +1,7 @@
+<?php
+require 'koneksi.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -109,18 +113,48 @@
     <div id="herotoptop"></div>
 
     <main id="main">
-        <section id="about" class="about">
+        <section id="about" class="about section-bg">
             <div class="container">
                 <div class="section-title">
-                    <h2>Penerimaan Murid Baru</h2>
-                    <p>Untuk mendaftar ke SMA Muhammadiyah 2 Bandar Lampung, Anda harus menyiapkan:</p>
-                    <br>
-                    <p>Ijazah SMP/sederajat</p>
-                    <p>Kartu Keluarga</p>
-                    <p>Pas Foto 3x4</p>
-                    <p>SKL Jika Belum mempunyai Ijazah</p>
-                    <br>
-                    <a href="daftarmuridbaru.php" class="btn btn-success">Daftar Sekarang!</a>
+                    <h2>Siswa</h2>
+                    <!-- Secondary News Row -->
+                    <div class="counts container">
+
+                    <div class="row no-gutters">
+
+                        <div class="col-lg-4 col-md-6 d-md-flex align-items-md-stretch">
+                            <div class="count-box">
+                                <i class="bi bi-people"></i>
+                                <span class="counter">126</span>
+                                <p><strong>Siswa</strong></p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 d-md-flex align-items-md-stretch">
+                            <div class="count-box">
+                                <i class="bi bi-people"></i>
+                                <div class="chart-text">
+                                    <?php
+                                    $query = query("SELECT * FROM murid_terdaftar");
+                                    $data = rows($query);
+                                    ?>
+                                    <span class="counter"><?= $data ?></span>
+                                    <p><strong>Siswa Yang Mendaftar</strong></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 d-md-flex align-items-md-stretch">
+                            <div class="count-box">
+                                <i class="bi bi-people"></i>
+                                <span class="counter">1024</span>
+                                <p><strong>Alumni</strong></p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
                 </div> 
             </div>
         </section>
