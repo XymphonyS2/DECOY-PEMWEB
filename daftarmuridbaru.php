@@ -4,7 +4,7 @@ require "koneksi.php";
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $nama = $_POST['nama'];
 
-    $query_post = query("INSERT INTO murid_terdaftar SET nama='$nama'");
+    $query_post = query("INSERT INTO muriddaftar SET nama='$nama'");
     if ($query_post !== false) {
         echo "<script>alert('Murid Berhasil Terdaftar!');</script>";
         header('location : siswa.php');
