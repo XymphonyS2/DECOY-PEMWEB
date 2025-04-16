@@ -1,3 +1,17 @@
+<?php
+require "koneksi.php";
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $nama = $_POST['nama'];
+
+    $query_post = query("INSERT INTO murid_terdaftar SET nama='$nama'");
+    if ($query_post !== false) {
+        echo "<script>alert('Murid Berhasil Terdaftar!');</script>";
+        header('location : siswa.php');
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -114,10 +128,10 @@
                     <h2>Penerimaan Murid Baru</h2>
                     <p>Untuk mendaftar ke SMA Muhammadiyah 2 Bandar Lampung, Anda harus menyiapkan:</p>
                     <br>
-                    <form>
+                    <form method="post">
                         <div class="form-group">
                             <label for="exampleFormControlInput1">Nama Lengkap</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Masukkan Nama Lengkap Anda">
+                            <input type="text" name="nama" class="form-control" id="exampleFormControlInput1" placeholder="Masukkan Nama Lengkap Anda">
                         </div>
                         <div class="form-group">
                             <label for="exampleFormControlSelect1">Tanggal Lahir</label>
@@ -135,8 +149,8 @@
                             <label for="formFile" class="form-label">Pas Foto 3x4</label>
                             <input class="form-control" type="file" id="formFile">
                         </div>
+                        <button class="btn btn-success">Daftar Sekarang!</button>
                     </form>
-                    <a href="siswa.php" class="btn btn-success">Daftar Sekarang!</a>
                 </div>
             </div>
         </section>
