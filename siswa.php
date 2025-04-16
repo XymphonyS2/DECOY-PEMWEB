@@ -1,5 +1,14 @@
 <?php
-require 'koneksi.php';
+require "koneksi.php";
+
+if (isset($_POST['hafizh'])) {
+    $nama = $_POST['nama'];
+
+    $query_post = query("INSERT INTO muriddaftar SET nama='$nama'");
+    if ($query_post !== false) {
+        echo "<script>alert('Murid Berhasil Terdaftar!');</script>";
+    }
+}
 ?>
 
 <!DOCTYPE html>
@@ -135,7 +144,7 @@ require 'koneksi.php';
                                 <i class="bi bi-people"></i>
                                 <div class="chart-text">
                                     <?php
-                                    $query = query("SELECT * FROM murid_terdaftar");
+                                    $query = query("SELECT * FROM muriddaftar");
                                     $data = rows($query);
                                     ?>
                                     <span class="counter"><?= $data ?></span>
