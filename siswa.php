@@ -94,21 +94,21 @@ if (isset($_POST['hafizh'])) {
 
             <nav id="navbar" class="navbar mr-5 ml-auto">
                 <ul>
-                    <li><a class="nav-link scrollto " href="index.html">Beranda</a></li>
-                    <li><a class="nav-link scrollto" href="#artikel">Artikel</a></li>
-                    <li><a class="nav-link scrollto" href="galeri.html">Galeri</a></li>
+                    <li><a class="nav-link scrollto " href="index.php">Beranda</a></li>
+                    <li><a class="nav-link scrollto" href="artikel.php">Artikel</a></li>
+                    <li><a class="nav-link scrollto" href="galeri.php">Galeri</a></li>
                     <li class="dropdown"><a href="#"><span>Akademik</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                            <li><a href="about">Prestasi</a></li>
-                            <li><a href="guru.html">Guru</a></li>
-                            <li><a href="lambang">Siswa</a></li>
+                            <li><a href="prestasi.php">Prestasi</a></li>
+                            <li><a href="guru.php">Guru</a></li>
+                            <li><a href="#herotoptop">Siswa</a></li>
                         </ul>
                     </li>
                     <li class="dropdown"><a href="#"><span>Tentang</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                            <li><a href="#herotoptop">Sejarah</a></li>
-                            <li><a href="visimisi.html">Visi dan Misi</a></li>
-                            <li><a href="tujuan.html">Tujuan</a></li>
+                            <li><a href="#sejarah.php">Sejarah</a></li>
+                            <li><a href="visimisi.php">Visi dan Misi</a></li>
+                            <li><a href="tujuan.php">Tujuan</a></li>
                         </ul>
                     </li>
 
@@ -134,16 +134,32 @@ if (isset($_POST['hafizh'])) {
                         <div class="col-lg-4 col-md-6 d-md-flex align-items-md-stretch">
                             <div class="count-box">
                                 <i class="bi bi-people"></i>
-                                <span class="counter">126</span>
+                                <span class="counter">234</span>
                                 <p><strong>Siswa</strong></p>
                             </div>
                         </div>
 
                         <div class="col-lg-4 col-md-6 d-md-flex align-items-md-stretch">
+    <div class="count-box">
+        <i class="bi bi-people"></i>
+        <div class="chart-text">
+            <?php
+            $query = query("SELECT * FROM muriddaftar");
+            $data = mysqli_num_rows($query); // Menggunakan mysqli_num_rows untuk mendapatkan jumlah baris
+            // atau alternatif jika Anda menggunakan function wrapper khusus:
+            // $data = count(rows($query)); // Jika rows() mengembalikan array hasil
+            ?>
+            <span class="counter"><?= $data ?></span>
+            <p><strong>Siswa Yang Mendaftar</strong></p>
+        </div>
+    </div>
+</div>
+
+                        <!-- <div class="col-lg-4 col-md-6 d-md-flex align-items-md-stretch">
                             <div class="count-box">
                                 <i class="bi bi-people"></i>
                                 <div class="chart-text">
-                                    <?php
+                                    <?html
                                     $query = query("SELECT * FROM muriddaftar");
                                     $data = rows($query);
                                     ?>
@@ -151,7 +167,7 @@ if (isset($_POST['hafizh'])) {
                                     <p><strong>Siswa Yang Mendaftar</strong></p>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
                         <div class="col-lg-4 col-md-6 d-md-flex align-items-md-stretch">
                             <div class="count-box">
@@ -180,7 +196,7 @@ if (isset($_POST['hafizh'])) {
     <script src="assets/aset/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="assets/aset/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="assets/aset/vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="assets/aset/vendor/php-email-form/validate.js"></script>
+    <script src="assets/aset/vendor/html-email-form/validate.js"></script>
 
 
     <script src="assets/aset/js/main.js"></script>
@@ -189,80 +205,57 @@ if (isset($_POST['hafizh'])) {
 
 </html><!-- ======= Footer ======= -->
 <footer id="footer">
-  <div class="footer-top">
-    <div class="container">
-      <div class="row">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 footer-info">
+                    <h3>SMA S MUHAMMADIYAH 2</h3>
+                    <p>
+                        Bandar Lampung, 35144<br>
+                        Lampung, Indonesia<br><br>
+                        <strong>Phone:</strong> 0721 781578<br>
+                        <strong>Email:</strong> smamuha2bdl@gmail.com<br>
+                    </p>
+                    <div class="social-links mt-3">
+                        <a target="blank"
+                            href="https://www.facebook.com/p/SMA-Muhammadiyah-2-Bandar-Lampung-100044363867463/?locale=id_ID"
+                            class="facebook"><i class="bi bi-facebook"></i></a>
+                        <a target="blank" href="https://www.instagram.com/smamdabalam/" class="instagram"><i
+                                class="bi bi-instagram"></i></a>
+                        <a target="blank" href="https://www.youtube.com/channel/UC3ieSrJMvjzla5ExkgtJYxw"
+                            class="youtube"><i class="bxi bi-youtube"></i></a>
+                    </div>
+                </div>
 
-        <div class="col-lg-3 col-md-6 footer-info">
-          <h3>SMA S AL KAUTSAR</h3>
-          <p>
-            Bandar Lampung, 35144<br>
-            Lampung, Indonesia<br><br>
-            <strong>Phone:</strong> 0721 781578<br>
-            <strong>Email:</strong> smaalkautsarlampung@gmail.com<br>
-          </p>
-          <div class="social-links mt-3">
-            <a target="blank" href="https://www.facebook.com/p/SMA-Muhammadiyah-2-Bandar-Lampung-100044363867463/?locale=id_ID" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a target="blank" href="https://www.instagram.com/smamdabalam/" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a target="blank" href="https://www.youtube.com/channel/UC3ieSrJMvjzla5ExkgtJYxw" class="youtube"><i class="bxi bi-youtube"></i></a>
-          </div>
-        </div>
+                <div class="col-lg-2 col-md-6 footer-links">
+                    <h4>Menu Utama</h4>
+                    <ul>
+                        <li><i class="bi bi-chevron-right"></i> <a href="#heroCarousel">Beranda</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="artikel.php">Artikel</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="galeri.php">Galeri</a></li>
+                    </ul>
+                </div>
 
-        <div class="col-lg-2 col-md-6 footer-links">
-          <h4>Menu Utama</h4>
-          <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#heroCarousel">Beranda</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a target="blank" href="#artikel">Artikel</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a #portfolio">Galeri</a></li>
-          </ul>
-        </div>
+                <div class="col-lg-2 col-md-6 footer-links">
+                    <h4>Akademik</h4>
+                    <ul>
+                        <li><i class="bi bi-chevron-right"></i> <a href="prestasi.php">Prestasi</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="guru">Guru</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="agenda">Siswa</a></li>
+                    </ul>
+                    </li>
+                </div>
 
-        <div class="col-lg-2 col-md-6 footer-links">
-          <h4>Akademik</h4>
-          <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="prestasi">Prestasi</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="pengumuman">Guru</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="agenda">Siswa</a></li>
-          </ul>
-          </li>
-        </div>
-
-        <div class="col-lg-2 col-md-6 footer-links">
-          <h4>Tentang</h4>
-          <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="sejarah">Sejarah</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="visi_misi">Visi dan Misi</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="struktur">Tujuan</a></li>
-          </ul>
-          </li>
-        </div>
-            
-        <!-- Right column for secondary news -->
-        <div class="col-lg-3">
-            <!-- Third small news item -->
-            <div class="news-card pt-3">
-                <ul>
-                    <li><a href="sejarah"><i class="bi bi-facebook" style="color: gray; margin-right: 5px;"></i> <span>Facebook</span></a></li>
-                    <li><a href="visi_misi"><i class="bi bi-instagram" style="color: gray; margin-right: 5px;"></i> <span>Instagram</span></a></li>
-                    <li><a href="struktur"><i class="bi bi-youtube" style="color: gray; margin-right: 5px;"></i> <span>Youtube</span></a></li>
-                  </ul>
+                <div class="col-lg-2 col-md-6 footer-links">
+                    <h4>Tentang</h4>
+                    <ul>
+                        <li><i class="bi bi-chevron-right"></i> <a href="sejarah">Sejarah</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="visi_misi">Visi dan Misi</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="struktur">Tujuan</a></li>
+                    </ul>
+                    </li>
+                </div>
             </div>
         </div>
-
-      </div>
     </div>
-  </div>
-
-  <div class="container">
-    <div class="copyright">
-      &copy; Copyright <strong><span>Hapes</span></strong>. All Rights Reserved
-    </div>
-    <div class="credits">
-      <!-- All the links in the footer should remain intact. -->
-      <!-- You can delete the links only if you purchased the pro version. -->
-      <!-- Licensing information: https://bootstrapmade.com/license/ -->
-      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bootstrap-3-one-page-template-free-shuffle/ -->
-      <!-- Designed by <a target="blank" href="https://bootstrapmade.com/">BootstrapMade</a> -->
-    </div>
-  </div>
-</footer><!-- End Footer -->
+</footer>

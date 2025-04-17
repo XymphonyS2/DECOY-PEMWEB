@@ -76,37 +76,10 @@ require "koneksi.php";
 
 <body>
     <header id="header" class="d-flex align-items-center">
-        <div>
-            <a href="#herotoptop" class="navbar-brand nav-brand2 ml-5"><img class="img img-responsive" width="200px;" src="theme/images/MUHA-2.png"></a>
-        </div>
-
-        <div class="container d-flex align-items-center justify-content-start">
-
-            <nav id="navbar" class="navbar mr-5 ml-auto">
-                <ul>
-                    <li><a class="nav-link scrollto " href="index.html">Beranda</a></li>
-                    <li><a class="nav-link scrollto" href="#artikel">Artikel</a></li>
-                    <li><a class="nav-link scrollto" href="galeri.html">Galeri</a></li>
-                    <li class="dropdown"><a href="#"><span>Akademik</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="about">Prestasi</a></li>
-                            <li><a href="guru.html">Guru</a></li>
-                            <li><a href="lambang">Siswa</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown"><a href="#"><span>Tentang</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="#herotoptop">Sejarah</a></li>
-                            <li><a href="visimisi.html">Visi dan Misi</a></li>
-                            <li><a href="tujuan.html">Tujuan</a></li>
-                        </ul>
-                    </li>
-
-                </ul>
-                <i class="bi bi-list mobile-nav-toggle"></i>
-            </nav>
-
-        </div>
+        <div style="display: flex; justify-content: center; align-items: center; width: 100%; height: 70px;">
+        <a href="muridbaru.php" style="display: block; text-align: center; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
+        <img class="img img-responsive" width="200px;" src="theme/images/MUHA-2.png" alt="SMA S MUHAMMADIYAH 2 BANDAR LAMPUNG">
+        </a>
     </header>
 
     <div id="herotoptop"></div>
@@ -139,7 +112,9 @@ require "koneksi.php";
                             <label for="formFile" class="form-label">Pas Foto 3x4</label>
                             <input class="form-control" type="file" id="formFile">
                         </div>
-                        <input name="hafizh" type="submit" class="btn btn-success" placeholder="Daftar Sekarang!">
+
+                        <input name="hafizh" type="submit" class="btn btn-success" value="Daftar Sekarang!">
+                        <!-- <input name="hafizh" type="submit" class="btn btn-success" placeholder="Daftar Sekarang!"> -->
                     </form>
                 </div>
             </div>
@@ -165,81 +140,3 @@ require "koneksi.php";
 </body>
 
 </html><!-- ======= Footer ======= -->
-<footer id="footer">
-    <div class="footer-top">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-lg-3 col-md-6 footer-info">
-                    <h3>SMA S AL KAUTSAR</h3>
-                    <p>
-                        Bandar Lampung, 35144<br>
-                        Lampung, Indonesia<br><br>
-                        <strong>Phone:</strong> 0721 781578<br>
-                        <strong>Email:</strong> smaalkautsarlampung@gmail.com<br>
-                    </p>
-                    <div class="social-links mt-3">
-                        <a target="blank" href="https://www.facebook.com/p/SMA-Muhammadiyah-2-Bandar-Lampung-100044363867463/?locale=id_ID" class="facebook"><i class="bi bi-facebook"></i></a>
-                        <a target="blank" href="https://www.instagram.com/smamdabalam/" class="instagram"><i class="bi bi-instagram"></i></a>
-                        <a target="blank" href="https://www.youtube.com/channel/UC3ieSrJMvjzla5ExkgtJYxw" class="youtube"><i class="bxi bi-youtube"></i></a>
-                    </div>
-                </div>
-
-                <div class="col-lg-2 col-md-6 footer-links">
-                    <h4>Menu Utama</h4>
-                    <ul>
-                        <li><i class="bi bi-chevron-right"></i> <a href="#heroCarousel">Beranda</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a target="blank" href="#artikel">Artikel</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a #portfolio">Galeri</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-2 col-md-6 footer-links">
-                    <h4>Akademik</h4>
-                    <ul>
-                        <li><i class="bi bi-chevron-right"></i> <a href="prestasi">Prestasi</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a href="pengumuman">Guru</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a href="agenda">Siswa</a></li>
-                    </ul>
-                    </li>
-                </div>
-
-                <div class="col-lg-2 col-md-6 footer-links">
-                    <h4>Tentang</h4>
-                    <ul>
-                        <li><i class="bi bi-chevron-right"></i> <a href="sejarah">Sejarah</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a href="visi_misi">Visi dan Misi</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a href="struktur">Tujuan</a></li>
-                    </ul>
-                    </li>
-                </div>
-
-                <!-- Right column for secondary news -->
-                <div class="col-lg-3">
-                    <!-- Third small news item -->
-                    <div class="news-card pt-3">
-                        <ul>
-                            <li><a href="sejarah"><i class="bi bi-facebook" style="color: gray; margin-right: 5px;"></i> <span>Facebook</span></a></li>
-                            <li><a href="visi_misi"><i class="bi bi-instagram" style="color: gray; margin-right: 5px;"></i> <span>Instagram</span></a></li>
-                            <li><a href="struktur"><i class="bi bi-youtube" style="color: gray; margin-right: 5px;"></i> <span>Youtube</span></a></li>
-                        </ul>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="copyright">
-            &copy; Copyright <strong><span>Hapes</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bootstrap-3-one-page-template-free-shuffle/ -->
-            <!-- Designed by <a target="blank" href="https://bootstrapmade.com/">BootstrapMade</a> -->
-        </div>
-    </div>
-</footer><!-- End Footer -->

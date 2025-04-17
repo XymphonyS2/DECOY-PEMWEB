@@ -9,7 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if ($query !== false) {
         $_SESSION['pemwebsma'] = fetch($query);
         echo "<script>alert('Masuk Berhasil!');</script>";
-        header('location: index.php');
+        header('location: muridbaru.php');
     }
 }
 ?>

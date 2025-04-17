@@ -77,9 +77,6 @@ require 'koneksi.php';
 </style>
 
 <body>
-
-
-
     <!-- ======= Hero Section ======= -->
     <section id="hero">
         <div class="hero-container">
@@ -114,7 +111,7 @@ require 'koneksi.php';
                     </div>
 
                     <!-- Slide 3 -->
-                    <div class="carousel-item" style="background-image: url(theme/images/SEMANGAT.jpg);">
+                    <div class="carousel-item" style="background-image: url(theme/images/17.jpeg);">
                         <div class="carousel-container">
                             <div class="carousel-content">
                                 <h2 class="animate__animated animate__fadeInDown">Inspirasi Belajar, Teladan Akhlak</h2>
@@ -138,7 +135,6 @@ require 'koneksi.php';
         </div>
     </section>
 
-
     <header id="header" class="d-flex align-items-center">
         <div>
             <a href="#heroCarousel" class="navbar-brand nav-brand2 ml-5"><img class="img img-responsive" width="200px;"
@@ -150,13 +146,13 @@ require 'koneksi.php';
             <nav id="navbar" class="navbar mr-5 ml-auto">
                 <ul>
                     <li><a class="nav-link scrollto " href="#heroCarousel">Beranda</a></li>
-                    <li><a class="nav-link scrollto" href="#artikel">Artikel</a></li>
+                    <li><a class="nav-link scrollto" href="artikel.php">Artikel</a></li>
                     <li><a class="nav-link scrollto" href="galeri.php">Galeri</a></li>
                     <li class="dropdown"><a href="#"><span>Akademik</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="prestasi.php">Prestasi</a></li>
                             <li><a href="guru.php">Guru</a></li>
-                            <li><a href="lambang">Siswa</a></li>
+                            <li><a href="siswa.php">Siswa</a></li>
                         </ul>
                     </li>
                     <li class="dropdown"><a href="#"><span>Tentang</span> <i class="bi bi-chevron-down"></i></a>
@@ -166,7 +162,6 @@ require 'koneksi.php';
                             <li><a href="tujuan.php">Tujuan</a></li>
                         </ul>
                     </li>
-
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
@@ -179,7 +174,7 @@ require 'koneksi.php';
             <div class="container">
                 <div class="section-title">
                     <h2>Selamat Datang</h2>
-                    <p>KSMAS MUHAMMADIYAH 2 didirikan pada 1977 sebagai bagian dari upaya Muhammadiyah dalam
+                    <p>SMAS MUHAMMADIYAH 2 didirikan pada 1977 sebagai bagian dari upaya Muhammadiyah dalam
                         mencerdaskan kehidupan bangsa dengan berlandaskan nilai-nilai Islam. Sejak awal, sekolah ini
                         berkomitmen untuk mencetak generasi Muslim yang berilmu, berakhlak mulia, dan berdaya saing
                         tinggi.</p> <br>
@@ -199,19 +194,17 @@ require 'koneksi.php';
                     <h3>Penerimaan Murid Baru</h3>
                     <p>SMA S Muhammadiyah 2 akan membuka pendaftaran penerimaan murid tahun ajaran 2025-2026 pada
                         Januari 2025.</p>
-                    <a class="cta-btn" target="blank" href="http://pmb.alkautsarlampung.sch.id/">Daftar Sekarang</a>
+                    <a class="cta-btn" target="blank" href="daftar.php">Daftar Sekarang</a>
                 </div>
 
             </div>
         </section>
 
         <section class="more-services section-bg" id="artikel">
-
             <div class="container-fluid">
-
                 <div class="section-title">
                     <h2>Artikel Terbaru</h2>
-                    <p>Berita terkini tentang SMA S Al Kautsar</p>
+                    <p>Berita terkini tentang SMA S Muhammadiyah 2</p>
                 </div>
 
                 <div class="container mt-4">
@@ -347,7 +340,7 @@ require 'koneksi.php';
                         <!-- Secondary News Row -->
                         <div class="row">
                             <!-- Left column for secondary news -->
-                            <div class="col-md-12">
+                            <div class="col-md-13">
                                 <!-- First small news item -->
                                 <div class="news-card">
                                     <a class="small-news-item" href="artikel.php"> 
@@ -362,80 +355,9 @@ require 'koneksi.php';
                         </div>
                     </div>
                 </div>
-
                 <!-- Bootstrap Bundle with Popper -->
                 <script
                     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-
-                <!-- <div class="row">
-                                            <div class="col-lg-2 col-md-4 col-sm-6">
-                            <div class="card">
-                                <img src="assets/images/4fbfee4f21d8efe75149d060811cb6ec.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title" style="text-align: center"><a href="https://smas-alkautsar.sch.id/artikel/154-siswa-eligible-sma-al-kautsar-mulai-isi-pilihan-jurusan-snbp">154 Siswa Eligible SMA Al Kautsar Mulai Isi Pilihan Jurusan SNBP</a></h5>
-                                    <p class="card-text" style="text-align: center">
-                                        Dari jumlah total 383 siswa SMA Al Kautsar kelas X ...</p>
-                                    <a href="blog" class="btn">Explore more</a>
-                                </div>
-                            </div>
-                        </div>
-                                            <div class="col-lg-2 col-md-4 col-sm-6">
-                            <div class="card">
-                                <img src="assets/images/11c48d3c20853e4afbcc04d9e7fe7e39.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title" style="text-align: center"><a href="https://smas-alkautsar.sch.id/artikel/jadwal-tes-smp-&-sma">Jadwal TES SMP & SMA</a></h5>
-                                    <p class="card-text" style="text-align: center">
-                                        Silakan kunjungi pada laman&nbsp;</p>
-                                    <a href="blog"class="btn">Explore more</a>
-                                </div>
-                            </div>
-                        </div>
-                                            <div class="col-lg-2 col-md-4 col-sm-6">
-                            <div class="card">
-                                <img src="assets/images/3948d43f998371aee42f0dd84f741b06.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title" style="text-align: center"><a href="https://smas-alkautsar.sch.id/artikel/amuse-sma-al-kautsar-dimeriahkan-2.425-pelajar-se-lampung">Amuse SMA Al Kautsar Dimeriahkan 2.425 Pelajar se-Lampung</a></h5>
-                                    <p class="card-text" style="text-align: center">
-                                        Sebanyak 2.425 pelajar SMP/MTs se Provinsi Lampung ...</p>
-                                    <a href="blog" class="btn">Explore more</a>
-                                </div>
-                            </div>
-                        </div>
-                                            <div class="col-lg-2 col-md-4 col-sm-6">
-                            <div class="card">
-                                <img src="assets/images/977406193af7d447ca44f9363b191fc3.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title" style="text-align: center"><a href="https://smas-alkautsar.sch.id/artikel/asc-sma-al-kautsar-wadah-kompetisi-para-pelajar-calon-ilmuwan">ASC SMA Al Kautsar Wadah Kompetisi Para Pelajar Calon Ilmuwan</a></h5>
-                                    <p class="card-text" style="text-align: center">
-                                        PORTALLNEWS.ID (Bandar Lampung) &ndash; SMA Al Kau ...</p>
-                                    <a href="blog" class="btn">Explore more</a>
-                                </div>
-                            </div>
-                        </div>
-                                            <div class="col-lg-2 col-md-4 col-sm-6">
-                            <div class="card">
-                                <img src="assets/images/2c548fa6b9501df74432aeacbd8ce333.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title" style="text-align: center"><a href="https://smas-alkautsar.sch.id/artikel/penerimaan-siswa-baru-2025-sma-al-kautsar-tambah-satu-kelas-baru">Penerimaan Siswa Baru 2025 SMA Al Kautsar Tambah Satu Kelas Baru</a></h5>
-                                    <p class="card-text" style="text-align: center">
-                                        PORTALLNEWS.ID (Bandar Lampung) &ndash; SMA Al Kau ...</p>
-                                    <a href="blog" class="btn">Explore more</a>
-                                </div>
-                            </div>
-                        </div>
-                                            <div class="col-lg-2 col-md-4 col-sm-6">
-                            <div class="card">
-                                <img src="assets/images/2283f0a09e049474b7a3d75b829901ea.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title" style="text-align: center"><a href="https://smas-alkautsar.sch.id/artikel/94-siswa-sma-al-kautsar-ikuti-diklat-ekskul-seni">94 Siswa SMA Al Kautsar Ikuti Diklat Ekskul Seni</a></h5>
-                                    <p class="card-text" style="text-align: center">
-                                        PORTALLNEWS.ID (Bandar Lampung) &ndash; Sebanyak 9 ...</p>
-                                    <a href="blog" class="btn">Explore more</a>
-                                </div>
-                            </div>
-                        </div>
-                                    </div>
-            </div> -->
         </section>
 
 
@@ -447,7 +369,6 @@ require 'koneksi.php';
 
                     <div class="row portfolio-container">
 
-
                         <div class="col-lg-4 col-md-4 portfolio-item filter-app">
                             <div class="portfolio-wrap" style="height: 250px; overflow: hidden;">
                                 <img src="theme/images/FOTO-SEKOLAH.jpeg" value="4" class="img-fluid" alt="">
@@ -455,7 +376,7 @@ require 'koneksi.php';
                                     <h4>Gedung Sekolah</h4>
                                 </div>
                                 <div class="portfolio-links">
-                                    <a href="assets/images/27c53d7b7aace7772f6e599127a68251.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Ruang Kelas Siswa"><i class="bx bx-info-circle"></i></a>
+                                    <a href="assets/images/27c53d7b7aace7772f6e599127a68251.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="gedungsekolah"><i class="bx bx-info-circle"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -467,7 +388,7 @@ require 'koneksi.php';
                                     <h4>Masjid</h4>
                                 </div>
                                 <div class="portfolio-links">
-                                    <a href="assets/images/f9eacc7c524ffd45229ea089c335cbf7.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Lapangan Basket"><i class="bx bx-info-circle"></i></a>
+                                    <a href="assets/images/f9eacc7c524ffd45229ea089c335cbf7.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="masjid"><i class="bx bx-info-circle"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -479,7 +400,7 @@ require 'koneksi.php';
                                     <h4>17 Agustus</h4>
                                 </div>
                                 <div class="portfolio-links">
-                                    <a href="assets/images/cdd7a73cc02f97bb655c46f363780af0.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Koperasi Sekolah"><i class="bx bx-info-circle"></i></a>
+                                    <a href="assets/images/cdd7a73cc02f97bb655c46f363780af0.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="17 agustus"><i class="bx bx-info-circle"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -502,7 +423,7 @@ require 'koneksi.php';
                             <div class="count-box">
                                 <i class="bi bi-people"></i>
                                 <div class="chart-text">
-                                    <span class="counter">437</span>
+                                    <span class="counter">234</span>
                                     <p><strong>Siswa</strong></p>
                                 </div>
                             </div>
@@ -510,7 +431,7 @@ require 'koneksi.php';
 
                         <div class="col-lg-4 col-md-6 d-md-flex align-items-md-stretch">
                             <div class="count-box">
-                                <i class="bi bi-download"></i>
+                                <i class="bi bi-bookmark"></i>
                                 <span class="counter">6</span>
                                 <p><strong>Ekstrakurikuler</strong></p>
                             </div>
@@ -520,7 +441,6 @@ require 'koneksi.php';
 
                 </div>
         </section>
-
 
         <section id="contact" class="contact section-bg">
             <div class="container-fluid">
@@ -540,7 +460,7 @@ require 'koneksi.php';
                             <div class="col-lg-6 info info-bg d-flex flex-column align-items-stretch">
                                 <i class="bi bi-envelope"></i>
                                 <h4>Email</h4>
-                                <p>smamuhammadiyah2bdl@gmail.com</p>
+                                <p>smamuha2bdl@gmail.com</p>
                             </div>
                             <div class="col-lg-6 info d-flex flex-column align-items-stretch">
                                 <i class="bi bi-clock"></i>
@@ -559,22 +479,15 @@ require 'koneksi.php';
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.25573193578!2d105.24790187034863!3d-5.37792534182902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e40dac56447c995%3A0xba1b81a606d2e179!2sSMA%20Muhammadiyah%202%20%7C%20Bandar%20Lampung!5e0!3m2!1sid!2sid!4v1744299028542!5m2!1sid!2sid"
                             width="1300" height="500" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
-
                     </div>
-
                 </div>
-
             </div>
-
             </div>
         </section>
-
     </main>
-
 
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
-
 
     <script src="assets/aset/vendor/purecounter/purecounter_vanilla.js"></script>
     <script src="assets/aset/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -583,7 +496,6 @@ require 'koneksi.php';
     <script src="assets/aset/vendor/swiper/swiper-bundle.min.js"></script>
     <script src="assets/aset/vendor/waypoints/noframework.waypoints.js"></script>
     <script src="assets/aset/vendor/php-email-form/validate.js"></script>
-
 
     <script src="assets/aset/js/main.js"></script>
 
@@ -594,14 +506,13 @@ require 'koneksi.php';
     <div class="footer-top">
         <div class="container">
             <div class="row">
-
                 <div class="col-lg-3 col-md-6 footer-info">
                     <h3>SMA S MUHAMMADIYAH 2</h3>
                     <p>
                         Bandar Lampung, 35144<br>
                         Lampung, Indonesia<br><br>
                         <strong>Phone:</strong> 0721 781578<br>
-                        <strong>Email:</strong> smaalkautsarlampung@gmail.com<br>
+                        <strong>Email:</strong> smamuha2bdl@gmail.com<br>
                     </p>
                     <div class="social-links mt-3">
                         <a target="blank"
@@ -618,8 +529,8 @@ require 'koneksi.php';
                     <h4>Menu Utama</h4>
                     <ul>
                         <li><i class="bi bi-chevron-right"></i> <a href="#heroCarousel">Beranda</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a target="blank" href="#artikel">Artikel</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a #portfolio">Galeri</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="artikel.php">Artikel</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="galeri.php">Galeri</a></li>
                     </ul>
                 </div>
 
@@ -627,8 +538,8 @@ require 'koneksi.php';
                     <h4>Akademik</h4>
                     <ul>
                         <li><i class="bi bi-chevron-right"></i> <a href="prestasi.php">Prestasi</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a href="pengumuman">Guru</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a href="agenda">Siswa</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="guru.php">Guru</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="siswa.php">Siswa</a></li>
                     </ul>
                     </li>
                 </div>
@@ -636,42 +547,13 @@ require 'koneksi.php';
                 <div class="col-lg-2 col-md-6 footer-links">
                     <h4>Tentang</h4>
                     <ul>
-                        <li><i class="bi bi-chevron-right"></i> <a href="sejarah">Sejarah</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a href="visi_misi">Visi dan Misi</a></li>
-                        <li><i class="bi bi-chevron-right"></i> <a href="struktur">Tujuan</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="sejarah.php">Sejarah</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="visimisi.php">Visi dan Misi</a></li>
+                        <li><i class="bi bi-chevron-right"></i> <a href="tujuan.php">Tujuan</a></li>
                     </ul>
                     </li>
                 </div>
-
-                <!-- Right column for secondary news -->
-                <div class="col-lg-3">
-                    <!-- Third small news item -->
-                    <div class="news-card pt-3">
-                        <ul>
-                            <li><a href="sejarah"><i class="bi bi-facebook" style="color: gray; margin-right: 5px;"></i>
-                                    <span>Facebook</span></a></li>
-                            <li><a href="visi_misi"><i class="bi bi-instagram"
-                                        style="color: gray; margin-right: 5px;"></i> <span>Instagram</span></a></li>
-                            <li><a href="struktur"><i class="bi bi-youtube" style="color: gray; margin-right: 5px;"></i>
-                                    <span>Youtube</span></a></li>
-                        </ul>
-                    </div>
-                </div>
-
             </div>
         </div>
     </div>
-
-    <div class="container">
-        <div class="copyright">
-            &copy; Copyright <strong><span>Hapes</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bootstrap-3-one-page-template-free-shuffle/ -->
-            <!-- Designed by <a target="blank" href="https://bootstrapmade.com/">BootstrapMade</a> -->
-        </div>
-    </div>
-</footer><!-- End Footer -->
+</footer>
