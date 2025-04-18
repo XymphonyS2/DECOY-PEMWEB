@@ -86,9 +86,9 @@
                     <li><a class="nav-link scrollto" href="galeri.html">Galeri</a></li>
                     <li class="dropdown"><a href="#"><span>Akademik</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                            <li><a href="about">Prestasi</a></li>
+                            <li><a href="prestasi.php">Prestasi</a></li>
                             <li><a href="#herotoptop">Guru</a></li>
-                            <li><a href="siswa.html">Siswa</a></li>
+                            <li><a href="siswa.php">Siswa</a></li>
                         </ul>
                     </li>
                     <li class="dropdown"><a href="#"><span>Tentang</span> <i class="bi bi-chevron-down"></i></a>

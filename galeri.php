@@ -115,113 +115,41 @@
                     <h2>Galeri</h2>
                     <div class="row portfolio-container">
                      
-                            <div class="col-lg-4 col-md-4 portfolio-item filter-app">
-                                <div class="portfolio-wrap">
-                                    <img src="https://placehold.co/400x250" value="4" class="img-fluid" alt="">
-                                    <div class="portfolio-info">
-                                        <h4>Ruang Kelas Siswa</h4>
-                                    </div>
-                                    <div class="portfolio-links">
-                                        <a href="assets/images/27c53d7b7aace7772f6e599127a68251.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Ruang Kelas Siswa"><i class="bx bx-info-circle"></i></a>
-                                    </div>
+                    <div class="col-lg-4 col-md-4 portfolio-item filter-app">
+                            <div class="portfolio-wrap" style="height: 250px; overflow: hidden;">
+                                <img src="theme/images/FOTO-SEKOLAH.jpeg" value="4" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Gedung Sekolah</h4>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="assets/images/27c53d7b7aace7772f6e599127a68251.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="gedungsekolah"><i class="bx bx-info-circle"></i></a>
                                 </div>
                             </div>
-                        
-                            <div class="col-lg-4 col-md-4 portfolio-item filter-app">
-                                <div class="portfolio-wrap">
-                                    <img src="https://placehold.co/400x250" value="4" class="img-fluid" alt="">
-                                    <div class="portfolio-info">
-                                        <h4>Lapangan Basket</h4>
-                                    </div>
-                                    <div class="portfolio-links">
-                                        <a href="assets/images/f9eacc7c524ffd45229ea089c335cbf7.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Lapangan Basket"><i class="bx bx-info-circle"></i></a>
-                                    </div>
+                        </div>
+                    
+                        <div class="col-lg-4 col-md-4 portfolio-item filter-app">
+                            <div class="portfolio-wrap" style="min-height: 250px; overflow: hidden;">
+                                <img src="theme/images/MASJID.jpeg" value="4" class="img-fluid" alt="" style="width: 100%; height: auto; object-fit: cover;">
+                                <div class="portfolio-info">
+                                    <h4>Masjid</h4>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="assets/images/f9eacc7c524ffd45229ea089c335cbf7.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="masjid"><i class="bx bx-info-circle"></i></a>
                                 </div>
                             </div>
-                        
-                            <div class="col-lg-4 col-md-4 portfolio-item filter-app">
-                                <div class="portfolio-wrap">
-                                    <img src="https://placehold.co/400x250" value="4" class="img-fluid" alt="">
-                                    <div class="portfolio-info">
-                                        <h4>Koperasi Sekolah</h4>
-                                    </div>
-                                    <div class="portfolio-links">
-                                        <a href="assets/images/cdd7a73cc02f97bb655c46f363780af0.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Koperasi Sekolah"><i class="bx bx-info-circle"></i></a>
-                                    </div>
+                        </div>
+                    
+                        <div class="col-lg-4 col-md-4 portfolio-item filter-app">
+                            <div class="portfolio-wrap" style="height: 250px; overflow: hidden;">
+                                <img src="theme/images/17.jpeg" value="4" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>17 Agustus</h4>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="assets/images/cdd7a73cc02f97bb655c46f363780af0.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="17 agustus"><i class="bx bx-info-circle"></i></a>
                                 </div>
                             </div>
-                            
-                            <div class="col-lg-4 col-md-4 portfolio-item filter-app">
-                                <div class="portfolio-wrap">
-                                    <img src="https://placehold.co/400x250" value="4" class="img-fluid" alt="">
-                                    <div class="portfolio-info">
-                                        <h4>Ruang Kelas Siswa</h4>
-                                    </div>
-                                    <div class="portfolio-links">
-                                        <a href="assets/images/27c53d7b7aace7772f6e599127a68251.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Ruang Kelas Siswa"><i class="bx bx-info-circle"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        
-                            <div class="col-lg-4 col-md-4 portfolio-item filter-app">
-                                <div class="portfolio-wrap">
-                                    <img src="https://placehold.co/400x250" value="4" class="img-fluid" alt="">
-                                    <div class="portfolio-info">
-                                        <h4>Lapangan Basket</h4>
-                                    </div>
-                                    <div class="portfolio-links">
-                                        <a href="assets/images/f9eacc7c524ffd45229ea089c335cbf7.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Lapangan Basket"><i class="bx bx-info-circle"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        
-                            <div class="col-lg-4 col-md-4 portfolio-item filter-app">
-                                <div class="portfolio-wrap">
-                                    <img src="https://placehold.co/400x250" value="4" class="img-fluid" alt="">
-                                    <div class="portfolio-info">
-                                        <h4>Koperasi Sekolah</h4>
-                                    </div>
-                                    <div class="portfolio-links">
-                                        <a href="assets/images/cdd7a73cc02f97bb655c46f363780af0.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Koperasi Sekolah"><i class="bx bx-info-circle"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-4 col-md-4 portfolio-item filter-app">
-                                <div class="portfolio-wrap">
-                                    <img src="https://placehold.co/400x250" value="4" class="img-fluid" alt="">
-                                    <div class="portfolio-info">
-                                        <h4>Ruang Kelas Siswa</h4>
-                                    </div>
-                                    <div class="portfolio-links">
-                                        <a href="assets/images/27c53d7b7aace7772f6e599127a68251.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Ruang Kelas Siswa"><i class="bx bx-info-circle"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        
-                            <div class="col-lg-4 col-md-4 portfolio-item filter-app">
-                                <div class="portfolio-wrap">
-                                    <img src="https://placehold.co/400x250" value="4" class="img-fluid" alt="">
-                                    <div class="portfolio-info">
-                                        <h4>Lapangan Basket</h4>
-                                    </div>
-                                    <div class="portfolio-links">
-                                        <a href="assets/images/f9eacc7c524ffd45229ea089c335cbf7.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Lapangan Basket"><i class="bx bx-info-circle"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        
-                            <div class="col-lg-4 col-md-4 portfolio-item filter-app">
-                                <div class="portfolio-wrap">
-                                    <img src="https://placehold.co/400x250" value="4" class="img-fluid" alt="">
-                                    <div class="portfolio-info">
-                                        <h4>Koperasi Sekolah</h4>
-                                    </div>
-                                    <div class="portfolio-links">
-                                        <a href="assets/images/cdd7a73cc02f97bb655c46f363780af0.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Koperasi Sekolah"><i class="bx bx-info-circle"></i></a>
-                                    </div>
-                                </div>
-                            </div>
+                        </div>
                     </div>
                 </div>
         </section>

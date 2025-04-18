@@ -346,7 +346,7 @@ require 'koneksi.php';
                                     <a class="small-news-item" href="artikel.php"> 
                                         <div class="small-news-content">
                                             <h4 class="news-title mb-1">
-                                                <span>Pelajari Lainnya...</span>
+                                                <span>Berita Lainnya...</span>
                                             </h4>
                                         </div>
                                     </a>

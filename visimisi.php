@@ -81,21 +81,21 @@
 
             <nav id="navbar" class="navbar mr-5 ml-auto">
                 <ul>
-                    <li><a class="nav-link scrollto " href="indexphp">Beranda</a></li>
-                    <li><a class="nav-link scrollto" href="artikelphp">Artikel</a></li>
-                    <li><a class="nav-link scrollto" href="galeriphp">Galeri</a></li>
+                    <li><a class="nav-link scrollto " href="index.php">Beranda</a></li>
+                    <li><a class="nav-link scrollto" href="artikel.php">Artikel</a></li>
+                    <li><a class="nav-link scrollto" href="galeri.php">Galeri</a></li>
                     <li class="dropdown"><a href="#"><span>Akademik</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                            <li><a href="prestasiphp">Prestasi</a></li>
-                            <li><a href="guruphp">Guru</a></li>
-                            <li><a href="siswaphp">Siswa</a></li>
+                            <li><a href="prestasi.php">Prestasi</a></li>
+                            <li><a href="guru.php">Guru</a></li>
+                            <li><a href="siswa.php">Siswa</a></li>
                         </ul>
                     </li>
                     <li class="dropdown"><a href="#"><span>Tentang</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                            <li><a href="sejarahphp">Sejarah</a></li>
+                            <li><a href="sejarah.php">Sejarah</a></li>
                             <li><a href="#herotoptop">Visi dan Misi</a></li>
-                            <li><a href="tujuanphp">Tujuan</a></li>
+                            <li><a href="tujuan.php">Tujuan</a></li>
                         </ul>
                     </li>
 

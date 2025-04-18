@@ -106,7 +106,7 @@ if (isset($_POST['hafizh'])) {
                     </li>
                     <li class="dropdown"><a href="#"><span>Tentang</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
-                            <li><a href="#sejarah.php">Sejarah</a></li>
+                            <li><a href="sejarah.php">Sejarah</a></li>
                             <li><a href="visimisi.php">Visi dan Misi</a></li>
                             <li><a href="tujuan.php">Tujuan</a></li>
                         </ul>
